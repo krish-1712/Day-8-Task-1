@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3{
+  padding-bottom: 0px;
+}
+.checked {
+  color: orange;
+  width: 25px;
+  height: 10px; 
+  padding: 10px;
+  padding-top: 0px;
+}
+.inp1{
+  width: 175px;
+  height: 20px;
+}
+.container:after {
+  width: 175px;
+  height: 20px;
+  content: "i";
+  margin-left: -25px;
+  margin-right: 25px;
+  padding-left: 6px;
+}
+.inp2{
+  width: 175px;
+  height: 20px;
+  margin: 10px;;
+}
+ .inp3{
+  width: 370px;
+  height: 20px;
+}
+
+table{
+    
+    border-collapse: collapse;
+}
+th{
+  text-align: left;
+  width: 150px;
+  height: 0px;
+}
+.inp4{
+  width: 900px;
+  height: 130px;
+}
+.primarycontent{
+  text-align: left;
+  padding: 10px;
+  padding-left: 0px;
+}
+.secondarycontent{
+  text-align: middle;
+  padding: 10px;
+}
+.primaryrow{
+  background-color: #DCDCDC;
+}
+.radiobox{
+  height: 18px;
+  width: 18px;
+}
+.fa-regular {
+  float: right;
+  margin-right: 6px;
+  margin-top: -20px;
+  position: relative;
+  z-index: 2;
+  color: red;
+}
+.button{
+  width: 70px;
+  height: 50px;;
+}
+body{
+  background-color: white;
+}
+.fa-regular{
+  text-align: end;
+}
+    </style>
+</head>
+<body>
+ 
+      <table>
+        <tr>
+            <form action="">
+           
+                <label for="fname">Name<span style="color:red">*</span> </label>
+               <br>
+                <input  class="inp1" type="fname" id="fname" name="fname">
+              
+           
+                <label for="lname"></label>
+                <input type="lname" id="lname" name="lname"class="inp2">
+            </form>
+        </tr>
+        <tr>
+                <br>
+                <label for="email" >Email<span style="color:red">*</span></label>
+                <br>
+                <input type="email" id="email" name="email" class="inp3"> 
+            </tr>
+             <h3>Your Experience<span style="color:red">*</span></h3>
+             <span class="fa fa-star fa-2x checked"></span>
+             <span class="fa fa-star fa-2x checked"></span>
+             <span class="fa fa-star fa-2x checked"></span>
+             <span class="fa fa-star fa-2x checked"></span>
+             <span class="fa fa-star fa-2x checked"></span>
+             <p>Overall how would you rate your experience with us?</p>
+             <p><h3>How Satisfied are you with<span style="color:red">*</span></h3></p>
+             <table>
+                <th></th>
+                <th>Very Unsatisfied</th>
+                <th>Unsatisfied</th>
+                <th>Netural</th>
+                <th>Satisfied</th>
+                <th>Very Satisfied</th>
+                <tr class="primaryrow">
+                    <td class="primarycontent">Purchase</td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>   
+                </tr>
+                <tr>
+                    <td class="primarycontent">Service</td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td> 
+                </tr>
+                <tr class="primaryrow">
+                    <td class="primarycontent">Company Overall</td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>  
+                </tr>
+             </table>
+             <p><h3>How Likely are you to<span style="color:red">*</span></h3></p>
+             <table>
+                <th></th>
+                <th>Very Unlikely</th>
+                <th>Unlikely</th>
+                <th>Netural</th>
+                <th>Likely</th>
+                <th>Very Likely</th>
+                <tr class="primaryrow">
+                    <td class="primarycontent">Buy us form again</td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>  
+                </tr>
+                <tr>
+                    <td class="primarycontent">Recommend our product to  others</td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>    
+                </tr>
+                <tr class="primaryrow">
+                    <td class="primarycontent">Recommend our company to  others</td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>
+                    <td class="secondarycontent"><input class="radiobox" type="radio"></td>  
+                </tr>
+             </table>  
+             <p><h3>Additional comments or suggestions </h3></p>
+             <textarea type="text" class="inp4"></textarea>
+             <br>
+             <br>
+             <button class="button">Sumbit</button>
+</body>
+</html>
